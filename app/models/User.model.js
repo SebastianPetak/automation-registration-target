@@ -8,11 +8,9 @@ var UserSchema = new Schema({
 		trim: true
 	},
 	password: {
-		type: String,
-		required: true
+		type: String
 	},
 	birthdayMonth: String,
-	birthdayDay: String,
 	gender: String,
 	radio: String,
 	check: Boolean
