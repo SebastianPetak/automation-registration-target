@@ -30,7 +30,7 @@ module.exports = function(app) {
 				birthdayMonth: req.body.birthdayMonth,
 				gender: req.body.gender,
 				eyeColor: req.body.eyeColor,
-				checkbox: checkbox
+				checkBox: checkbox
 			};
 
 			// use schema's create method

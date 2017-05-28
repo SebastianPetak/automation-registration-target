@@ -9,12 +9,25 @@ var UserSchema = new Schema({
 		trim: true
 	},
 	password: {
-		type: String
+		type: String,
+		required: true
 	},
-	birthdayMonth: String,
-	gender: String,
-	radio: String,
-	check: Boolean
+	birthdayMonth: {
+		type: String,
+		required: true
+	},
+	gender: {
+		type: String,
+		required: true
+	},
+	eyeColor: {
+		type: String,
+		required: true
+	},
+	checkBox: {
+		type: Boolean,
+		required: true
+	}
 });
 
 UserSchema.pre('save', function(next) {
