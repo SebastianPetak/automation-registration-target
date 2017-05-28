@@ -13,7 +13,6 @@ module.exports = function(app) {
 	});
 	// post from registration page
 	app.post('/register', function(req, res) {
-		console.log(req.body.eyeColor);
 		if(req.body.email &&
 			req.body.password &&
 			req.body.birthdayMonth &&

@@ -1,6 +1,6 @@
 # Automation Registration Target
 
-A registration form and database for automation testing
+A registration form and database sandbox for automation testing
 
 ## Installation
 
