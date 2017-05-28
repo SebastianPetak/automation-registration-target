@@ -30,4 +30,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 routes(app);
 
 // Launch ==================================================================
-app.listen(port);
+app.listen(port, function() {
+	console.log('Listening on port: ' + port);
+});
