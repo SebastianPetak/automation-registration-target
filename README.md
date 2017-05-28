@@ -10,7 +10,7 @@ Be sure to have Node.js and MongoDB installed.
 2. Create a directory where you want to store the application
 3. Navigate to the directory
 4. `git init`
-5. `git remote add origin __url-of-your-git-repo`
+5. `git remote add origin url-of-your-forked-repo`
 6. `git pull origin master`
 7. `npm install`
 
@@ -20,7 +20,7 @@ Be sure to have Node.js and MongoDB installed.
 2. Navigate to the application's root directory
 3. run `node server.js`
 
-See [learn-nodejs-selenium-webdriver](https://github.com/SebastianPetak/learn-nodejs-selenium-webdriver) for automation testing with Selenium on Node.js
+See [learn-nodejs-selenium-webdriver](https://github.com/SebastianPetak/learn-nodejs-selenium-webdriver) for automation testing this application with Selenium on Node.js
 
 ## History
 
