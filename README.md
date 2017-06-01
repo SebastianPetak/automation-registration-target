@@ -16,11 +16,17 @@ Be sure to have Node.js and MongoDB installed.
 
 ## Usage
 
+### Running the registration website locally
+
 1. Be sure that MongoDB is running
 2. Navigate to the application's root directory
-3. run `node server.js`
+3. run `node server.js` or `npm run start`
 
-See [learn-nodejs-selenium-webdriver](https://github.com/SebastianPetak/learn-nodejs-selenium-webdriver) for automation testing this application with Selenium on Node.js
+### Running the registration bot
+
+1. run `npm run test`
+
+See [learn-nodejs-selenium-webdriver](https://github.com/SebastianPetak/learn-nodejs-selenium-webdriver) for more tests with Selenium and Node.js
 
 ## History
 
